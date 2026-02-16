@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+
+
+
+:root {
+    --color-primary: #ff014f;
+    --color-secondary: #f4f5f6;
+    --color-tertiary: #0d1013;
+    --color-gray: #f6f6f6;
+    --color-subtitle: #f9004d;
+    --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
+    --background-color-2: #212428;
+    --shadow-1: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
+    --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+    --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
+    --gradient-red-hover: linear-gradient(145deg, #ff014f, #d11414);
+    --color-heading: #ffffff;
+    --color-heading-wv: #1e2125;
+    --color-body: #878e99;
+    --color-body-white: #3c3e41;
+    --color-lightn: #c4cfde;
+    --color-midgray: #878787;
+    --color-light: #E4E6EA;
+    --color-lighter: #CED0D4;
+    --color-lightest: #F0F2F5;
+    --color-border: #E6E6E6;
+    --color-white: #ffffff;
+    --color-white-75: rgba(255, 255, 255, 0.75);
+    --color-success: #3EB75E;
+    --color-danger: #FF0003;
+    --color-warning: #FF8F3C;
+    --color-info: #1BA2DB;
+    --color-facebook: #3B5997;
+    --color-twitter: #1BA1F2;
+    --color-youtube: #ED4141;
+    --color-linkedin: #0077B5;
+    --color-pinterest: #E60022;
+    --color-instagram: #C231A1;
+    --color-vimeo: #00ADEF;
+    --color-twitch: #6441A3;
+    --color-discord: #7289da;
+    --color-bg:
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lora', serif;
+    color: #333;
+    line-height: 1.25em;
+    font-weight: normal;
+}
+
+hr {
+    height: 10px;
+}
+
+body {
+    background: var(--color-heading);
+    overflow-x: hidden;
+}
+
+/** navbar part start */
+.navbar .navbar-brand img {
+    height: 50px;
+}
+
+/** navbar part end */
+
+.btn-purple {
+    background-color: #8a4fff;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-purple:hover {
+    background-color: #6e3fcc;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stars {
+    color: orange;
+}
+
+
+
+.offer-text {
+    padding-left: 120px;
+}
+
+.offer-text-2 {
+    padding-right: 120px;
+    width: 30%;
+}
+
+
+
+.property-card {
+    width: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: none;
+    color: black !important;
+}
+
+.property-card:hover {
+    border: none;
+    /* background: linear-gradient(135deg, #8a2be2, #6a0dad); */
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.2), transparent), #6D32A8;
+    color: white !important;
+
+}
+
+.icon-container {
+    font-size: 30px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+
+
+
+.border-parts {
+
+    width: 5px;
+    height: 71%;
+    padding: 0 2px 0 2px;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.2), transparent), #6D32A8;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.border-rounded {
+
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.2), transparent), #6D32A8;
+    border-radius: 50%;
+    right: 10px;
+}
+
+
+.main-box-in-contain:hover {
+    border: none;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.2), transparent), #6D32A8;
+    color: white !important;
+    border-radius: 10px;
+}
+
+
+.main-box-in-contain,
+.box-in-cin {
+    top: 0%;
+    border-radius: 10px;
+    height: 130px;
+    width: 100px;
+    /* background-color: red; */
+}
+
+.search-bar {
+    width: 60%;
+}
+
+.btn-primary {
+    background-color: #7d4ac7;
+    border-color: #7d4ac7;
+}
+
+.btn-primary:hover {
+    background-color: #6939b1;
+    border-color: #6939b1;
+}
+
+
+.box-in-head-52 {
+    height: 95px;
+    width: 95%;
+    background-color: #fff;
+    margin-top:17.40rem ;
+}
+.description-part-in-web{
+    margin: 0 32.50%;
+}
+
+
+
+
+
+.contact-info {
+    color: #6c757d;
+}
+.contact-info h2 {
+    color: #343a40;
+    font-weight: bold;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+.icon {
+    color: #6c757d;
+    margin-right: 10px;
+}

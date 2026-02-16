@@ -1,0 +1,15 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# VS Code settings (optional)
+.vscode/
+
+# Node modules (agar future me npm use kare)
+node_modules/
